@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/add_up_img1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <CheckBox
+        android:id="@+id/add_up_img_box1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        style="@style/MyCheckBox"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyToolbar">
+        <attr name="rightButtonIcon" format="reference" />
+        <attr name="isSearch" format="boolean" />
+        <attr name="searchIcon" format="reference" />
+        <attr name="editTextHint" format="string" />
+        <attr name="rightButtonText" format="string"/>
+        <attr name="clickAble" format="boolean"/>
+    </declare-styleable>
+</resources>
